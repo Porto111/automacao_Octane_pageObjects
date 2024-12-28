@@ -1,0 +1,20 @@
+{
+  "name": "automacao_octane_pageobjects",
+  "version": "1.0.0",
+  "description": "TDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run",
+    "report:generate": "npx mochawesome-merge cypress/reports/*.json | npx mochawesome-report-generator --inline"
+  },
+  "author": "Guilherme Porto",
+  "license": "MIT",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+    "cypress": "^13.16.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
